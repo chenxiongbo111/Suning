@@ -1,0 +1,239 @@
+
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend,input{margin:0; padding:0;}
+ul,li,ol{list-style:none;}
+img,fieldset{border:0; }
+img{display:block;}
+a{text-decoration:none; color:#333;}
+h1,h2,h3,h4,h5,h6,strong{font-weight:100;}
+body{ font-family:"微软雅黑";}
+input,button,a{outline:none;}
+
+.header{
+    height: 100px;
+    width: 973px;
+    margin: 0 auto;
+}
+.section{
+    width: 973px;
+    height: 572px;
+    margin: 0 auto;
+    background: url('../img/back.jpg') center;
+    overflow: hidden;
+}
+.section_wrap{
+    background: #FFD237;
+}
+.footer{
+    width: 973px;
+    height: 267px;
+    margin: 0 auto;
+}
+.logo{
+    background:url('../img/logo2.png') no-repeat center;
+    width: 190px;
+    height: 100%;
+    float: left;
+}
+.header p{
+    float: left;
+    width: 760px;
+    height: 26px;
+    background: #FEFFF1;
+    font-size: 12px;
+    border: 1px solid #FECD66;
+    line-height: 26px;
+    padding-left: 5px;
+    margin: 37px 0 0 10px;
+}
+.header p span{
+    color: #FF6600;
+}
+.header p span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.advise{
+    background: url('../img/sprite.png') -67px -27px no-repeat;
+    float: left;
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+.opinion{
+    font-size: 12px;
+    float: right;
+    margin-top: 10px;
+}
+.opinion:hover{
+    color: #FF6600;
+    cursor: pointer;
+}
+.register{
+    width: 362px;
+    height: 413px;
+    background: #ffffff;
+    float: right;
+    margin-top: 51px;
+}
+.register_header{
+    border-bottom: 1px solid #ECECEC;
+    margin-bottom: 20px;
+}
+.register_header span{
+    display: inline-block;
+    width: 178px;
+    // height: 51px;
+    text-align: center;
+    // line-height: 51px;
+    font-size: 16px;
+    margin-top: 17px;
+    margin-bottom: 10px;
+}
+.register_header span:nth-child(1){
+    border-right: 1px solid #ECECEC;
+}
+.register_header span:hover{
+    color: #FF6600;
+    cursor: pointer;
+}
+.form_padding{
+    padding: 20px;
+}
+.form_padding input , .form_padding button{
+    width: 100%;
+    height: 39px;
+    padding: 10px;
+    border: 0;
+}
+.label_img{
+    background: url('../img/sprite.png') -123px -67px no-repeat;
+    display: inline-block;
+    width: 39px;
+    height: 39px;
+}
+.label_img2{
+    background: url('../img/sprite.png') 0px -108px no-repeat;
+    display: inline-block;
+    width: 39px;
+    height: 39px;
+}
+.form_flex{
+    display: flex;
+    // align-items: center;
+    border: 1px solid #ECECEC;
+    margin-bottom: 20px;
+}
+.form button{
+    background: #FF6600;
+    outline: none;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 19px;
+    font-weight: 600;
+}
+.form button:hover{
+    background: #f60;
+}
+.register_verify{
+    font-size: 12px;
+    margin: 36px 0 10px 0;
+}
+.register_verify span:nth-child(3){
+    float: right;
+}
+.register_verify span:hover{
+    color: #FF6600;
+    cursor: pointer;
+}
+.register_verify span:nth-child(3):hover{
+    border-bottom: 1px solid #FF6600;
+}
+.verify{
+    background: url('../img/sprite.png') -20px -149px no-repeat;
+    display: inline-block;
+    width: 13px;
+    height: 16px;
+    margin-bottom: -3px;
+}
+.form_register{
+    text-align: center;
+    margin: 12px 0 35px;
+    font-size: 12px;
+    color: #FF6600;
+}
+.form_register span:hover{
+    border-bottom: 1px solid #FF6600;
+    cursor: pointer;
+}
+.bind_login{
+    position: relative;
+    width: 310px;
+    margin: 0 auto;
+    border-top: 1px solid #ddd;
+    padding: 19px 0 17px;
+}
+.bind_title{
+    position: absolute;
+    top: -9px;
+    left: 50%;
+    margin-left: -64px;
+    color: #999;
+    width: 128px;
+    background: #fff;
+    text-align: center;
+}
+.common a{
+    line-height: 16px;
+    padding: 0 7px;
+    float: left;
+    border-right:1px solid #dedcd5;
+    color: #000000;
+    font-size: 12px;
+}
+.common a:hover{
+    color: #FF6600;
+}
+.common i{
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+.qq i{
+    background: url('../img/sprite.png') -140px -108px no-repeat;
+}
+.wei_xin i{
+    background: url('../img/sprite.png') -90px -27px no-repeat;
+
+}
+.yi_fu i{
+    background: url('../img/sprite.png') -119px -108px no-repeat;
+}
+.wei_bo i{
+    background: url('../img/sprite.png') 0 -149px no-repeat;
+}
+.footer_text{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 15px;
+}
+.footer_text span{
+    padding: 0 4px;
+}
+.ash a ,.ash span{
+    color: #666666;
+}
+.ash a:hover{
+    color: #FF6600;
+}
+.grey a , .grey{
+    color: #999 !important;
+}
+.footer_img{
+    display: flex;
+    justify-content: center;
+}
+.footer_img img{
+    margin:  0 5px;
+    cursor: pointer;
+}

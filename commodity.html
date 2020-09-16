@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/header-general.css">
+    <link rel="stylesheet" href="./css/commodity.css">
+    <link rel="stylesheet" href="./layui/css/layui.css">
+    <link rel="stylesheet" href="./layui/font/iconfont.eot">
+    <link rel="shortcut icon" href="http://www.suning.com/favicon.ico" type="image/x-icon">
+    <script src="./js/jquery.js"></script>
+    <script src="./layui/layui.js"></script>
+    <title>伊利酸奶-商品详情</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <!-- 右滚动条固定定位开始 -->
+        <div class="right_fixed">
+            <div class="right_fixed_img right_fixed_img_none">
+                <img src="./img/right-img.png" alt="">
+            </div>
+            <div class="right_fixed_text">
+                <div class="right_fixed_text_login">
+                    <span class="right_text_login_span right_text_login_span_remove "></span>
+                    <span class="right_text_login_span_hover right_text_login_span_back"><i
+                            class="right_text_login_span_hover_i"></i></span>
+
+                </div>
+                <div class="right_fixed_text_login_none">
+                    <dl class="user_info">
+                        <dt><img src="./img/0000000000_01.jpg" alt=""></dt>
+                        <dd>
+                            <p class="pls_login">您好，请先 <a href=""> 登录!</a></p>
+                            <p>苏宁会员</p>
+                        </dd>
+                    </dl>
+                    <p class="pls_debit"><i></i> 0首付抵月供，任性购物快行动！点击查额。</p>
+                </div>
+                <div class="shopping ">
+                    <div class="shopping_flex">
+                        <i class="tab_icon_2 tab_icon_2_position"></i>
+                        <i class="tab_icon tab_icon_position"></i>
+                        <span class="shopping_flex_cart">
+                            购 物 车
+                        </span>
+                        <span class="cart_num">
+                            0
+                        </span>
+                    </div>
+
+                </div>
+                <div class="news news1">
+                    <i class="tab_icon tab_icon_news tab_icon_news1"></i>
+                    <div class="news_none news_none1">
+                        <span>消息</span>
+                    </div>
+                </div>
+                <div class="sign">
+                    <div class="news news2">
+                        <i class="tab_icon tab_icon_news2 "></i>
+                        <div class="news_none news_none2">
+                            <span>理财</span>
+                        </div>
+                    </div>
+                    <div class="news news3">
+                        <i class="tab_icon tab_icon_news3 "></i>
+                        <div class="news_none news_none3">
+                            <span>足迹</span>
+                        </div>
+                    </div>
+                    <div class="news news4">
+                        <i class="tab_icon tab_icon_news4 "></i>
+                        <div class="news_none news_none4">
+                            <span>签到</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="idea">
+                <div class="news news5">
+                    <i class="tab_icon tab_icon_news5 "></i>
+                    <div class="news_none news_none5 news_none5_width">
+                        <span>在线咨询</span>
+                    </div>
+                </div>
+                <div class="news news6">
+                    <i class="tab_icon tab_icon_news6 "></i>
+                    <div class="news_none news_none6 news_none5_width">
+                        <span>意见反馈</span>
+                    </div>
+                </div>
+                <div class="news news7">
+                    <i class="tab_icon tab_icon_news7 "></i>
+                    <div class="news_none22 news_none7 ">
+                        <img src="./img/right-down.png" alt="">
+                    </div>
+                </div>
+                <div class="news news8">
+                    <i class="tab_icon tab_icon_news8 "></i>
+                    <div class="news_none news_none8 news_none5_width">
+                        <span>返回顶部</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shopping_none">
+            <div class="right_fixed_img right_fixed_img2">
+                <img src="./img/right-img.png" alt="">
+            </div>
+            <div class="shopping_none_text">
+                <i class="icon_back "></i>
+                <div>
+                    <span class="site6 site_default"></span>
+                </div>
+                <dl class="">
+                    <dd class="site_hover none_six_dd">
+                        <p class="shopping_none_text_p">
+                            不要让你的购物车空着哦,快去逛逛吧
+                        </p>
+                        <p>
+                            如果你已添加过宝贝，那就赶紧登录查看吧
+                        </p>
+                        <div>
+                            <a href="./login.html"><button>登录</button></a>
+                        </div>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <div class="header_wrap">
+            <!-- 顶部开始 -->
+            <div class="header">
+                <span class="return_login"><a href="./home.html"> <i class="layui-icon">&#xe68e;</i> 返回首页</a></span>
+                <div class="header_block header_block1">
+                    <span class="site">网站导航 <i class="layui-icon " id="rotate"> &#xe61a;</i></span>
+                    <div class="site_none site_background">
+                        <div>
+                            <span class="site2"></span>
+                        </div>
+                        <dl class="site_dl site_dl1">
+                            <dt>特色购物</dt>
+                            <dd>
+                                <p>苏宁互联</p>
+                                <p>苏宁达人</p>
+                                <p>苏宁卡</p>
+                                <p>苏宁国际</p>
+                                <p>苏宁互联</p>
+                                <p>易回收</p>
+                                <p>领券中心</p>
+                                <p>苏宁Outlets</p>
+                                <p>导购指南</p>
+                            </dd>
+                        </dl>
+                        <dl class="site_dl site_dl1">
+                            <dt>主题频道</dt>
+                            <dd>
+                                <p>电器城</p>
+                                <p>苏宁超市</p>
+                                <p>手机</p>
+                                <p>运动馆</p>
+                                <p>图书</p>
+                                <p>红孩子母婴</p>
+                                <p>美妆个护</p>
+                                <p>电脑</p>
+                                <p>服装城</p>
+                                <p>智能生活</p>
+                                <p>家装馆</p>
+                                <p>苏宁汽车</p>
+                                <p>排行榜</p>
+                                <p>医药馆</p>
+                            </dd>
+                        </dl>
+                        <dl class="site_dl site_dl1">
+                            <dt>生活助手</dt>
+                            <dd>
+                                <p>零钱宝</p>
+                                <p>手机充值</p>
+                                <p>转账换款</p>
+                                <p>约服务</p>
+                                <p>水电煤</p>
+                                <p>保险</p>
+                                <p>机票</p>
+                                <p>门店查询</p>
+                                <p>酒店</p>
+                            </dd>
+                        </dl>
+                        <dl class="site_dl site_dl1">
+                            <dt>会员服务</dt>
+                            <dd>
+                                <p>会员联盟</p>
+                                <p>延长保修</p>
+                                <p>易付宝</p>
+                                <p>苏宁理财</p>
+                                <p>苏宁金融</p>
+                            </dd>
+                        </dl>
+                        <dl class="site_dl site_dl1">
+                            <dt>更多热点</dt>
+                            <dd>
+                                <p>PP视频</p>
+                                <p>合作招商</p>
+                                <p>苏宁联盟</p>
+                                <p>用户体验</p>
+                                <p>苏宁云</p>
+                                <p>苏宁足球</p>
+                                <p>苏宁公益</p>
+                                <p>苏宁有货</p>
+                            </dd>
+                        </dl>
+                    </div>
+                    <span class="site_odd2">商家入驻 <i class="layui-icon"> &#xe61a;</i></span>
+                    <div class="title_none site_background none_two">
+                        <div>
+                            <span class="site2"></span>
+                        </div>
+                        <dl class="site_dl site_dl2">
+                            <dd>
+                                <p>合作招商</p>
+                                <p>服务市场</p>
+                                <p>金融中心</p>
+                                <p>培训中心</p>
+                                <p>易通天下</p>
+                                <p>规则中心</p>
+                                <p>规则众议院</p>
+                            </dd>
+                        </dl>
+                    </div>
+                    <span class="site_odd3">客户服务 <i class="layui-icon"> &#xe61a;</i></span>
+                    <div class="title_none site_background none_three">
+                        <div>
+                            <span class="site2 site3"></span>
+                        </div>
+                        <dl class="site_dl site_dl2 site_dl3">
+                            <dd>
+                                <p>苏宁帮客</p>
+                                <p>帮助中心</p>
+                                <p>退换/维修</p>
+                                <p>意见反馈</p>
+                                <p>30天包退</p>
+                                <p>在线咨询 <i class="layui-icon service"> &#xe626; </i></p>
+                            </dd>
+                        </dl>
+                    </div>
+                    <span>郑州 <i class="layui-icon"> &#xe61a;</i></span>
+                </div>
+                <div class="header_block header_block2">
+                    <a href="./login.html">
+                        <span class="span_hover">请登录</span>
+                    </a>
+                    <span class="span_hover span_color">注册有礼</span>
+                    <span class="order">我的订单 <i class="layui-icon"> &#xe61a;</i></span>
+                    <div class=" site_background none_four title_none">
+                        <div>
+                            <span class="site4"></span>
+                        </div>
+                        <dl class=" site_dl4">
+                            <dd class="site_hover">
+                                <p>待支付</p>
+                                <p>待收货</p>
+                                <p>待评价</p>
+                                <p>修改订单</p>
+                            </dd>
+                        </dl>
+                    </div>
+                    <span class="e_gou">我的易购 <i class="layui-icon"> &#xe61a;</i></span>
+                    <div class=" site_background none_five title_none">
+                        <div>
+                            <span class="site5 site_default"></span>
+                        </div>
+                        <dl class="site_dl5">
+                            <dd class="site_hover">
+                                <p><img src="./img/tool-logo.png" alt=""></p>
+                                <p>请登录</p>
+                                <p>我的消息</p>
+                                <p>我的关注</p>
+                                <p>我的金融</p>
+                                <p>苏宁会员</p>
+                                <p>我的任性付</p>
+                                <p>我的优惠券</p>
+                            </dd>
+                        </dl>
+                    </div>
+                    <span class="span_hover">苏宁会员</span>
+                    <span class="cart"><i class="layui-icon service"> &#xe657; </i> 购物车<i class="i_color"> 0 </i><i
+                            class="layui-icon"> &#xe61a;</i></span>
+                    <div class=" site_background none_six title_none ">
+                        <div>
+                            <span class="site6 site_default"></span>
+                        </div>
+                        <dl class="">
+                            <dd class="site_hover none_six_dd">
+                                <img src="./img/sidebar-loading.gif" alt="">
+                                <p>
+                                    不要让你的购物车空着哦,快去逛逛吧
+                                </p>
+                                <p>
+                                    如果你已添加过宝贝，那就赶紧登录查看吧
+                                </p>
+                                <div>
+                                    <a href="./login.html"><button>登录</button></a>
+                                </div>
+                            </dd>
+                        </dl>
+                    </div>
+                    <span class="span_hover">易付宝</span>
+                    <span class="span_hover">企业采购</span>
+                    <span class="mobile">手机苏宁 <i class="layui-icon"> &#xe61a;</i></span>
+                    <div class=" site_background none_seven title_none">
+                        <div>
+                            <span class="site7 site_default"></span>
+                        </div>
+                        <dl class="">
+                            <dd class="site_hover none_seven_flex">
+                                <div>
+                                    <div>
+                                        <img src="./img/top-code4.jpg" alt="">
+                                    </div>
+                                    <span>扫一扫</span>
+                                    <div>下载苏宁易购APP</div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <img src="./img/top-code4.jpg" alt="">
+                                    </div>
+                                    <span>关注苏宁推客公众号</span>
+                                    <div>自购省钱*分享赚钱</div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <img src="./img/top-code4.jpg" alt="">
+                                    </div>
+                                    <span>扫一扫</span>
+                                    <div>下载苏宁金融APP</div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <img src="./img/top-code4.jpg" alt="">
+                                    </div>
+                                    <span>扫一扫</span>
+                                    <div>关注苏宁易购服务号</div>
+                                </div>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section_warp">
+            <div class="store-title-wrap">
+                <div class="store-title">
+                    <div class="store-logo">
+                        <img class="store-img" src="./img/snlogo.png" alt="">
+                        <div class="store_name_hover">
+                            <div class="store-name">
+                                <p class="oneself">伊利苏宁自营旗舰店 <i></i></p>
+                                <p class="arrows">店铺信息 <i></i></p>
+                                <div class="store-name-none store_name_none">
+                                    <div class="store-margin">
+                                        <div class="store-name-none-title">
+                                            <div>
+                                                <p> 服务承诺：<i class="background-position background-position-zp"></i>正品保障
+                                                </p>
+                                                <p>客服电话：400-365-365</p>
+                                            </div>
+                                            <img src="./img/yili.jpg" alt="">
+                                        </div>
+                                        <div class="store-button">
+                                            <a class="active">店铺首页</a>
+                                            <a>关注店铺</a>
+                                            <a>商品地图</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="store-input">
+                            <div class="store-input-border">
+                                <input type="text" placeholder="服饰周年庆 1件5折起">
+                                <span class="button-span1">搜易购</span>
+                            </div>
+                            <span class="button-span2">搜本店</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="title_img">
+                <img src="./img/title.png" alt="">
+            </div>
+            <div class="section-wrap-title">
+                <div class="section-title">
+                    <dl class="section-title-dl">
+                        <dt><span> 本店所有商品</span></dt>
+                        <dd class="section-title_dd">
+                            所有商品 <span>></span>
+
+                        </dd>
+                        <div class="title-dl-dd-div">
+                            <p>按销量</p>
+                            <p>按新品</p>
+                            <p>按价格</p>
+                        </div>
+                    </dl>
+                    <ul class="title-ul">
+                        <li>首页</li>
+                        <li>安慕希</li>
+                        <li>金典</li>
+                        <li>纯牛奶</li>
+                        <li>舒化奶</li>
+                        <li>谷粒多</li>
+                        <li>QQ星</li>
+                        <li>成人奶粉</li>
+                        <li>更多系列</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="select-wrap">
+                <div class="select">
+                    <div class="select-left">
+                        <a href="">食品保健/酒水饮料</a>
+                        <i> > </i>
+                        <ul class="select-left-ul">
+                            <li class="click_select1"><a href="">牛奶饮品</a> <em
+                                    class="select-background background-arrows1 "></em>
+                                <div class="select-left-ul-li-none1 select-left-ul-li-none">
+                                    <div class="select-left-ul-li-none-span">
+                                        <span>休闲食品</span>
+                                        <span>米面粮油</span>
+                                        <span>厨房调料</span>
+                                        <span>南北干货</span>
+                                        <span>方便速食</span>
+                                        <span>食品票劵</span>
+                                        <span>冲调食品</span>
+                                        <span>饮料饮品</span>
+                                        <span>酒</span>
+                                        <span>咖啡</span>
+                                        <span>茶叶</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <i> > </i>
+                            <li class="click_select2"><a href="">酸奶</a> <em
+                                    class="select-background background-arrows1"></em>
+                                <div class="select-left-ul-li-none2 select-left-ul-li-none">
+                                    <div class="select-left-ul-li-none-span">
+                                        <span>纯牛奶</span>
+                                        <span>风味奶</span>
+                                        <span>奶油/炼乳</span>
+                                        <span>乳酸饮料</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <i> > </i>
+                            <li class="click_select3"><a href=""> 伊利(YILI)</a> <em
+                                    class="select-background background-arrows1"></em>
+                                <div class="select-left-ul-li-none3 select-left-ul-li-none">
+                                    <div class="select-left-ul-li-none-span">
+                                        <span>纯牛奶</span>
+                                        <span>风味奶</span>
+                                        <span>奶油/炼乳</span>
+                                        <span>乳酸饮料</span>
+                                        <span>纯牛奶</span>
+                                        <span>风味奶</span>
+                                        <span>奶油/炼乳</span>
+                                        <span>乳酸饮料</span>
+                                        <span>纯牛奶</span>
+                                        <span>风味奶</span>
+                                        <span>奶油/炼乳</span>
+                                        <span>乳酸饮料</span>
+                                        <span>休闲食品</span>
+                                        <span>米面粮油</span>
+                                        <span>厨房调料</span>
+                                        <span>南北干货</span>
+                                        <span>方便速食</span>
+                                        <span>食品票劵</span>
+                                        <span>冲调食品</span>
+                                        <span>饮料饮品</span>
+                                        <span>酒</span>
+                                        <span>咖啡</span>
+                                        <span>茶叶</span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <i> > </i>
+                        <a href="">伊利(YILI)酸奶</a>
+                    </div>
+                    <div class="select-right">
+                        <ul class="select-right-ul">
+                            <span>自营</span>
+                            <li class="select-right-ul-li select-right-ul-li1">伊利苏宁自营旗舰店</li>
+                            <i class="contact"></i>
+                            <li class="select-right-ul-li select-right-ul-li2">联系客服</li>
+                            <div class="select-right-ul-none">
+                                <div class="select-right-ul-none-text">
+                                    <img src="./img/1_D0935A2754AFE4DBC05E70C371421634.jpg" alt="">
+                                    <p>扫码下单</p>
+                                    <a href="">进入店铺</a>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="commodity">
+                    <div class="commodity_img">
+                        <div class="commodity_img_big">
+                            <div class="commodity_img_big_block">
+                                <img class="img_find" src="./img/OH57YoN14-m2TkzLGXY85Q.jpg" alt="">
+                            </div>
+                            <div>
+                                <span class="blockage"></span>
+                            </div>
+                            <div class="zoom left">
+                            </div>
+                        </div>
+                        <div class="commodity_img_little">
+                            <ul class="commodity_img_little_ul">
+                                <li class="li_active1 li_active">
+                                    <img src="./img/OH57YoN14-m2TkzLGXY85Q.jpg" alt="">
+                                </li>
+                                <li class="li_active2">
+                                    <img src="./img/M9-LT1_1Iom8QH1J8l5QwQ.jpg" alt="">
+                                </li>
+                                <li class="li_active3">
+                                    <img src="./img/-njjmqedJ0kYCyQ7xNJTVg.jpg" alt="">
+                                </li>
+                                <li class="li_active4">
+                                    <img src="./img/MZc7CNKMsUWGLz5G8Jo7Qg.jpg" alt="">
+                                </li>
+                                <li class="li_active5">
+                                    <img src="./img/3BN2pZwI_3-yW--npLVdgg.jpg" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="commodity_img_little_span">
+                            <span>
+                                <i class="contrast-position contrast contrast1"></i>
+                                对比
+                            </span>
+                            <span>
+                                <i class="contrast-position contrast contrast2"></i>
+                                分享
+                            </span>
+                            <span>
+                                <i class="contrast-position contrast contrast3"></i>
+                                关注
+                            </span>
+                        </div>
+                    </div>
+                    <div class="commodity_pro">
+                        <div class="commodity_pro_title">
+                            <h1>
+                                <span class="commodity_pro_title_button">
+                                    <i>苏宁超市</i>
+                                    <i>自营</i>
+                                </span>
+                                伊利安慕希常温酸牛奶礼盒装205g*12 整箱 营养儿童成人学生早餐奶</h1>
+                            <h2>
+                                【陕西甘肃新疆青海等部分地区日期为5月，限量直降，介意慎拍】新老包装交替发货 希腊风味 浓郁口感
+                            </h2>
+                        </div>
+                        <div class="commodity_pro_price">
+                            <div>
+                                <dl class="commodity_pro_price_dl">
+                                    <dt>
+                                        易 购 价
+                                    </dt>
+                                    <dd>
+                                        <p><i class="money">￥</i><span
+                                                class="commodity_pro_price_dl_money">66.<i>00</i></span> <em
+                                                class="depreciate">降价通知</em></p>
+                                        <p class="member"><span class="member_icon"></span> <span>加入会员，
+                                                下单约返1.32元云钻</span></p>
+                                        <p class="dredge">立即开通></p>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="commodity_pro_price_img">
+                                <img src="./img/159883890888854112.gif" alt="">
+                                <img src="./img/1_5F7D3415D1C7A88B562DA39FD2381792.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="add-up">
+                            <span>累计评价 168万+</span>
+                        </div>
+                        <div class="discounts">
+                            <dl class="discounts_dl">
+                                <dt><span>优</span><span>恵</span> </dt>
+                                <dd>
+                                    <p>可参加以下优惠活动</p>
+                                    <p class="coupon"><i class="f-icon f-icon-coupon"></i> 100%刮中券，最高50元无敌券 <a
+                                            href="">立即去刮奖></a></p>
+                                    <p class="coupon"><span class="coupon_span">实名有礼</span> 实名认证领苏宁支付券 <a
+                                            class="login_hover" href="./login.html">登录后查看></a></p>
+                                    <p class="coupon"><span class="coupon_span">云钻</span> 普通会员预计返3云钻 </p>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="discounts">
+                            <dl class="discounts_dl">
+                                <dt><span>送</span><span>至</span></dt>
+                                <dd>
+                                    <p class="discounts-position">河南 郑州 中原区 全区 <b>有货</b> <a
+                                            class="freight freight1 login_hover" href="">满98元免基础运费(10kg内) </a> 支持 <span
+                                            class="pick freight2"> 自提</span> <span
+                                            class="freight_none freight_none1">所选地址自营订单满98元免基础运费(10kg内),超出重量加收1元/kg续重运费。实际收取运费以提交订单页面内的运费金额为准。</span>
+                                        <span class="freight_none freight_none2">门店自提服务</span></p>
+                                    <p class="timer">18:00前付款，预计周三（9月16日）送达 由 <span class="sunning">苏宁</span> 发货,并提供售后服务
+                                        <span class="sunning"><i class="contact contact2"></i>联系客服</span></p>
+
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="discounts discounts_width">
+                            <dl class="discounts_dl">
+                                <dt><span>系</span><span>列</span></dt>
+                                <dd>
+                                    <ul class="discounts_dl_ul">
+                                        <li class="discounts_dl_ul_border">
+                                            <img src="./img2/comm1.jpg" alt="">
+                                            <i class="f-icon f-icon_position"></i>
+                                            <span>原味12*205g</span>
+                                        </li>
+                                        <li class=" discounts_dl_ul_solid">
+                                            <img src="./img2/comm1.jpg" alt="">
+                                            <i class="f-icon "></i>
+                                            <span>原味12*205g</span>
+                                        </li>
+                                        <li class="discounts_dl_ul_dashed discounts_dl_ul_dashed_margin">
+                                            <img src="./img2/comm1.jpg" alt="">
+                                            <i class="f-icon "></i>
+                                            <span>原味12*205g</span>
+                                        </li>
+                                        <li class="discounts_dl_ul_dashed">
+                                            <img src="./img2/comm1.jpg" alt="">
+                                            <i class="f-icon "></i>
+                                            <span>蓝莓风味12*205g</span>
+                                        </li>
+                                        <li class="discounts_dl_ul_dashed">
+                                            <img src="./img2/comm1.jpg" alt="">
+                                            <i class="f-icon "></i>
+                                            <span>香草风味12*205g</span>
+                                        </li>
+                                        <li class="discounts_dl_ul_solid">
+                                            <img src="./img2/comm1.jpg" alt="">
+                                            <i class="f-icon "></i>
+                                            <span>草莓燕麦风味10*200g</span>
+                                        </li>
+                                        <li class="discounts_dl_ul_solid">
+                                            <img src="./img2/comm1.jpg" alt="">
+                                            <i class="f-icon "></i>
+                                            <span>草莓燕麦风味10*200g</span>
+                                        </li>
+                                        <li class="discounts_dl_ul_solid ">
+                                            <img src="./img2/comm1.jpg" alt="">
+                                            <i class="f-icon "></i>
+                                            <span>草莓燕麦风味10*200g</span>
+                                        </li>
+                                        <li class="discounts_dl_ul_dashed ">
+                                            <img src="./img2/comm1.jpg" alt="">
+                                            <i class="f-icon "></i>
+                                            <span>香草风味12*205g</span>
+                                        </li>
+                                    </ul>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="discounts">
+                            <dl class="discounts_dl">
+                                <dt><span>数</span><span>量</span></dt>
+                                <dd class="symbol">
+                                  <span class="plus f-icon "></span>
+                                  <input type="text" value="1" max="99" id="amount">
+                                  <span class="minus f-icon"></span>
+                             
+                                </dd>
+                           
+                            </dl>
+                            <div class="symbol_button">
+                                <span>立即购买</span>
+                                <span><i class="f-icon shopping-icon"></i> <em>加入购物车</em> </span>
+                            </div>
+                        </div>
+                        <div class="discounts discounts-top">
+                            <dl class="discounts_dl discounts_dl_position">
+                                <dt><span>服</span><span>务</span></dt>
+                                <dd>
+                                 <div class="discounts_promise">
+                                     <span class="discounts_promise_span_hover1">极速退</span>
+                                     <span class="discounts_promise_span_hover2">配送延时赔</span>
+                                     <span class="discounts_promise_span_hover3">7天无理由退货（拆封后不支持）</span>
+                                     <span class="discounts_promise_span_hover4">贵就赔</span>
+                                 </div>
+                                </dd>
+                                <div class="discounts_promise_none discounts_promise_none1">
+                                    苏宁为优质会员提供快速退款服务。
+                                </div>
+                                <div class="discounts_promise_none discounts_promise_none2">
+                                    若未按约定时效送达，苏宁将主动赔付。
+                                </div>
+                                <div class="discounts_promise_none discounts_promise_none3">
+                                    无理由退货，保购物无忧。
+                                </div>
+                                <div class="discounts_promise_none discounts_promise_none4">
+                                    7天价保，买贵就赔。
+                                </div>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="extend">
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- 顶部结束 -->
+</body>
+<script src="./js/general.js"></script>
+<script src="./js/commodity.js"></script>
+<script>
+    // 
+//     function scroll(){
+//         var img = $('.commodity_img_big_block').find("img");
+//             var span = $('.commodity_img_big').find("span");
+//             var zoom = $(".zoom");
+//             console.log(img)
+//             //获取略缩图相对于窗口的位置
+//  var tLeft = $(img).offset().left;
+//             var tTop = $(img).offset().top;
+
+//             $(this).mousemove(function (e) {
+//                 //获取鼠标坐标
+//  var mLeft = e.clientX;
+//                 var mTop = e.clientY;
+
+//                 //计算鼠标相对于图片区域的位置
+//  var l = mLeft - tLeft;
+//                 var t = mTop - tTop;
+
+//                 //鼠标移动时移动span
+//  $(span).css({
+//                     "display": "block",
+//                     "left": (l - 100) + "px",
+//                     "top": (t + 100) + "px"
+//  });
+
+//                 //计算偏移量
+//  var ll = (l / $(img).width()) * 100 + "%";
+//                 var tt = (t / $(img).height()) * 100 + "%";
+
+//                 //设置大图偏移
+//  $('.zoom').css({
+//                     "display": "block",
+//                     "background-position": ll + " " + tt
+//  })
+//             });
+
+//             //解除绑定
+//     $('.commodity_img_big').mouseleave(function(){
+//         console.log(123)
+//     })
+
+//     }
+//     scroll()
+
+
+</script>
+
+</html>

@@ -1,0 +1,204 @@
+i{
+    font-style:normal
+}
+em{
+    font-style:normal
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: #F8F8F8;
+}
+.header{
+    width: 990px;
+    height: 88px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.section{
+    width: 990px;
+    margin: 0 auto;
+}
+.footer{
+    height: 225px;
+    width: 990px;
+    margin: 0 auto;
+}
+.logo{
+    display: inline-block;
+    width: 190px;
+    height: 88px;
+    background: url('../img/sprite (1).png');
+    // float: left;
+}
+.su-logo{
+    display: flex;
+    align-items: center;
+}
+.su-logo span{
+    margin-left: 20px;
+    font-size: 18px;
+    color: #666666;
+}
+.qu_login{
+    margin-top: 60px;
+}
+.qu_login a{
+    color: #333333;
+    font-size: 12px;
+}
+.qu_login a:hover{
+    color: #FF6600;
+}
+.register_input{
+    height: 347px;
+    width: 990px;
+    background: #ffffff;
+    padding: 50px 0;
+    border: 1px solid #DDDDDD;
+    border-top: 3px solid #FF9900;
+}
+.input_text_title{
+    font-size: 14px;
+    display: flex;
+}
+.input_text_title em{
+    color: #FF6600;
+}
+.input_text{
+    height: 360px;
+    width: 378px;
+    margin: 0 auto;
+}
+.gift{
+    display: inline-block;
+    width: 19px;
+    height: 17px;
+    background: url('../img/sprite (1).png') no-repeat -75px -93px;
+    margin-right: 5px;
+}
+.input_text label{
+    display: inline-block;
+    width: 67px;
+    height: 38px;
+    font-size: 12px;
+    color: #333333;
+    line-height: 38px;
+    margin-left: 10px;
+}
+.input_text input{
+    width: 291px;
+    height: 38px;
+    border: 0;
+}
+.input_dan input{
+    width: 142px;
+    height: 38px;
+}
+.input_dan button{
+    width: 147.5px;
+    height: 40px;
+    border: 0;
+    border-left: 1px solid #CCCCCC;
+}
+.input_dan button:hover{
+    color: #FF6600;
+    cursor: pointer;
+}
+.input_text_input1{
+    margin-top: 20px ;
+}
+.tips_none{
+    height: 25px;
+    width: 400px;
+    font-size: 12px;
+    line-height: 25px;
+    color: #CACACA;
+}
+.input_text_input2{
+    margin-bottom: 36px;
+}
+.input_text_input_border{
+    border: 1px solid #CCCCCC;
+}
+.tips_none_none{
+    display: none;
+}
+.tips_none span{
+    color: #333333;
+}
+.tips_none span:hover{
+    color: #FF6600;
+    cursor: pointer;
+}
+.submit{
+    margin-top: 50px;
+}
+.submit button{
+    width: 378px;
+    height: 38px;
+    border: 0;
+    color: #ffffff;
+    font-size: 20px;
+    background: #FF6600;
+}
+.submit button:hover{
+    cursor: pointer;
+    background: #FF5500;
+}
+.enter{
+    margin: 5px 0;
+    color: #FF6600;
+    font-size: 14px;
+}
+.enter i{
+    display: inline-block;
+    width: 17px;
+    height: 15px;
+    background: url('../img/sprite (1).png') no-repeat -141px -93px;
+}
+.footer_text{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 15px;
+}
+.footer_text p{
+    margin: 0 0 10px;
+}
+.footer_text span{
+    padding: 0 4px;
+}
+.ash a ,.ash span{
+    color: #666666;
+}
+.ash a:hover{
+    color: #FF6600;
+}
+.grey a , .grey{
+    color: #999 !important;
+}
+.footer_img{
+    display: flex;
+    justify-content: center;
+}
+.footer_img img{
+    margin:  0 5px;
+    cursor: pointer;
+}
+.footer_img img:last-child{
+    width: 24px;
+    height: 24px;
+}
+.su_gong_an{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url('../img/gwab-icon.png');
+    position: absolute;
+    left: -24px;
+}
+.su_gong_an_a{
+    margin-left: 20px;
+    position: relative;
+}
