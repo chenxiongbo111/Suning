@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/header-general.css">
+    <link rel="stylesheet" href="./css/shopping.css">
+    <link rel="stylesheet" href="./layui/css/layui.css">
+    <link rel="stylesheet" href="./layui/font/iconfont.eot">
+    <link rel="shortcut icon" href="http://www.suning.com/favicon.ico" type="image/x-icon">
+    <script src="./js/jquery.js"></script>
+    <script src="./layui/layui.js"></script>
+    <title>购物车</title>
+</head>
+<body>
+    <div class="page">
+    <div class="header_wrap">
+        <!-- 顶部开始 -->
+        <div class="header">
+            <span class="return_login"><a href="./home.html"> <i class="layui-icon">&#xe68e;</i> 返回首页</a></span>
+            <div class="header_block header_block1">
+                <span class="site">网站导航 <i class="layui-icon " id="rotate"> &#xe61a;</i></span>
+                <div class="site_none site_background">
+                    <div>
+                        <span class="site2"></span>
+                    </div>
+                    <dl class="site_dl site_dl1">
+                        <dt>特色购物</dt>
+                        <dd>
+                            <p>苏宁互联</p>
+                            <p>苏宁达人</p>
+                            <p>苏宁卡</p>
+                            <p>苏宁国际</p>
+                            <p>苏宁互联</p>
+                            <p>易回收</p>
+                            <p>领券中心</p>
+                            <p>苏宁Outlets</p>
+                            <p>导购指南</p>
+                        </dd>
+                    </dl>
+                    <dl class="site_dl site_dl1">
+                        <dt>主题频道</dt>
+                        <dd>
+                            <p>电器城</p>
+                            <p>苏宁超市</p>
+                            <p>手机</p>
+                            <p>运动馆</p>
+                            <p>图书</p>
+                            <p>红孩子母婴</p>
+                            <p>美妆个护</p>
+                            <p>电脑</p>
+                            <p>服装城</p>
+                            <p>智能生活</p>
+                            <p>家装馆</p>
+                            <p>苏宁汽车</p>
+                            <p>排行榜</p>
+                            <p>医药馆</p>
+                        </dd>
+                    </dl>
+                    <dl class="site_dl site_dl1">
+                        <dt>生活助手</dt>
+                        <dd>
+                            <p>零钱宝</p>
+                            <p>手机充值</p>
+                            <p>转账换款</p>
+                            <p>约服务</p>
+                            <p>水电煤</p>
+                            <p>保险</p>
+                            <p>机票</p>
+                            <p>门店查询</p>
+                            <p>酒店</p>
+                        </dd>
+                    </dl>
+                    <dl class="site_dl site_dl1">
+                        <dt>会员服务</dt>
+                        <dd>
+                            <p>会员联盟</p>
+                            <p>延长保修</p>
+                            <p>易付宝</p>
+                            <p>苏宁理财</p>
+                            <p>苏宁金融</p>
+                        </dd>
+                    </dl>
+                    <dl class="site_dl site_dl1">
+                        <dt>更多热点</dt>
+                        <dd>
+                            <p>PP视频</p>
+                            <p>合作招商</p>
+                            <p>苏宁联盟</p>
+                            <p>用户体验</p>
+                            <p>苏宁云</p>
+                            <p>苏宁足球</p>
+                            <p>苏宁公益</p>
+                            <p>苏宁有货</p>
+                        </dd>
+                    </dl>
+                </div>
+                <span class="site_odd2">商家入驻 <i class="layui-icon"> &#xe61a;</i></span>
+                <div class="title_none site_background none_two">
+                    <div>
+                        <span class="site2"></span>
+                    </div>
+                    <dl class="site_dl site_dl2">
+                        <dd>
+                            <p>合作招商</p>
+                            <p>服务市场</p>
+                            <p>金融中心</p>
+                            <p>培训中心</p>
+                            <p>易通天下</p>
+                            <p>规则中心</p>
+                            <p>规则众议院</p>
+                        </dd>
+                    </dl>
+                </div>
+                <span class="site_odd3">客户服务 <i class="layui-icon"> &#xe61a;</i></span>
+                <div class="title_none site_background none_three">
+                    <div>
+                        <span class="site2 site3"></span>
+                    </div>
+                    <dl class="site_dl site_dl2 site_dl3">
+                        <dd>
+                            <p>苏宁帮客</p>
+                            <p>帮助中心</p>
+                            <p>退换/维修</p>
+                            <p>意见反馈</p>
+                            <p>30天包退</p>
+                            <p>在线咨询 <i class="layui-icon service"> &#xe626; </i></p>
+                        </dd>
+                    </dl>
+                </div>
+                <span>郑州 <i class="layui-icon"> &#xe61a;</i></span>
+            </div>
+            <div class="header_block header_block2">
+                <a href="./login.html">
+                    <span class="span_hover">请登录</span>
+                </a>
+                <span class="span_hover span_color">注册有礼</span>
+                <span class="order">我的订单 <i class="layui-icon"> &#xe61a;</i></span>
+                <div class=" site_background none_four title_none">
+                    <div>
+                        <span class="site4"></span>
+                    </div>
+                    <dl class=" site_dl4">
+                        <dd class="site_hover">
+                            <p>待支付</p>
+                            <p>待收货</p>
+                            <p>待评价</p>
+                            <p>修改订单</p>
+                        </dd>
+                    </dl>
+                </div>
+                <span class="e_gou">我的易购 <i class="layui-icon"> &#xe61a;</i></span>
+                <div class=" site_background none_five title_none">
+                    <div>
+                        <span class="site5 site_default"></span>
+                    </div>
+                    <dl class="site_dl5">
+                        <dd class="site_hover">
+                            <p><img src="./img/tool-logo.png" alt=""></p>
+                            <p>请登录</p>
+                            <p>我的消息</p>
+                            <p>我的关注</p>
+                            <p>我的金融</p>
+                            <p>苏宁会员</p>
+                            <p>我的任性付</p>
+                            <p>我的优惠券</p>
+                        </dd>
+                    </dl>
+                </div>
+                <span class="span_hover">苏宁会员</span>
+                <span class="cart"><i class="layui-icon service"> &#xe657; </i> 购物车<i class="i_color"> 0 </i><i
+                        class="layui-icon"> &#xe61a;</i></span>
+                <div class=" site_background none_six title_none ">
+                    <div>
+                        <span class="site6 site_default"></span>
+                    </div>
+                    <dl class="">
+                        <dd class="site_hover none_six_dd">
+                            <img src="./img/sidebar-loading.gif" alt="">
+                            <p>
+                                不要让你的购物车空着哦,快去逛逛吧
+                            </p>
+                            <p>
+                                如果你已添加过宝贝，那就赶紧登录查看吧
+                            </p>
+                            <div>
+                                <a href="./login.html"><button>登录</button></a>
+                            </div>
+                        </dd>
+                    </dl>
+                </div>
+                <span class="span_hover">易付宝</span>
+                <span class="span_hover">企业采购</span>
+                <span class="mobile">手机苏宁 <i class="layui-icon"> &#xe61a;</i></span>
+                <div class=" site_background none_seven title_none">
+                    <div>
+                        <span class="site7 site_default"></span>
+                    </div>
+                    <dl class="">
+                        <dd class="site_hover none_seven_flex">
+                            <div>
+                                <div>
+                                    <img src="./img/top-code4.jpg" alt="">
+                                </div>
+                                <span>扫一扫</span>
+                                <div>下载苏宁易购APP</div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img src="./img/top-code4.jpg" alt="">
+                                </div>
+                                <span>关注苏宁推客公众号</span>
+                                <div>自购省钱*分享赚钱</div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img src="./img/top-code4.jpg" alt="">
+                                </div>
+                                <span>扫一扫</span>
+                                <div>下载苏宁金融APP</div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img src="./img/top-code4.jpg" alt="">
+                                </div>
+                                <span>扫一扫</span>
+                                <div>关注苏宁易购服务号</div>
+                            </div>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="section-img">
+            <img src="./img2/155904346710465225.jpg" alt="">
+        </div>
+        <div class="section-input">
+            <div>
+                <img src="./img2/logo.png" alt="">
+            </div>
+            <div class="search_button">
+                <div>
+                    <i class="layui-icon search_icon"> &#xe615;</i>
+                </div>
+                <div>
+                    <input type="text" placeholder="空调9月开门红 每1000减100">
+                </div>
+                <div>
+                    <button class="cursor">搜索</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
+<script src="./js/general.js"></script>

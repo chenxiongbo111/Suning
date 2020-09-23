@@ -1,0 +1,42 @@
+/*section开始*/
+.section{
+    width: 1190px;
+    height: 1000px;
+    margin: 0 auto;
+    border: 1px solid #dddddd;
+    padding-top: 15px;
+}
+.section-img img{
+    width: 1190px;
+    height: 60px;
+}
+.search_button{
+    display: flex;
+    align-items: center;
+    margin: 30px 0 0 0 ;
+    border: 2px solid #FF8000;
+    width: 531px;
+    border-radius: 12px;
+}
+.search_ul ul{
+    display: flex;
+    align-items: center;
+}
+.search_button input{
+    width: 380px;
+    height: 36px;
+    padding: 0 5px;
+    border: 0;
+}
+.cursor{
+    cursor: pointer;
+}
+.search_button button{
+    width: 120px;
+    height: 36px;
+    border-radius: 0 9.5px 9.5px 0;
+    color: #ffffff;
+    background: #FF8000;
+    font-size: 18px;
+    font-weight: 600;
+}

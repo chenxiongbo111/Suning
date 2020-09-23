@@ -433,6 +433,8 @@ em{
 .extend{
     width: 199px;
     height: 1094px;
+    // border: 1px solid #DDDDDD;
+    margin: 0 2px;
 }
 .commodity_img_big{
     width: 400px;
@@ -897,6 +899,16 @@ em{
 }
 .discounts_promise span{
     margin-right: 15px;
+    position: relative;
+    padding: 0 0 0 18px;
+}
+.discounts_promise img{
+    position: absolute;
+    top: -1px;
+    left: 0;
+    width: 14px;
+    height: 14px;
+    z-index: 1;
 }
 .discounts_promise span:hover{
     color: #FF6600;
@@ -912,7 +924,7 @@ em{
     z-index: 5;
     border: 1px solid #FF6600;
     padding: 4px 6px;
-    // display: none;
+    display: none;
 }
 .discounts_promise_none1{
     left: -40px;
@@ -929,4 +941,381 @@ em{
 .discounts_promise_none4{
     // left: 20px;
     right: 110px;
+}
+.customer-title{
+    width: 100%;
+    height: 43px;
+    position: relative;
+}
+.customer-title h3{
+    font-weight: 600;
+    color: #666666;
+    position: absolute;
+    width: 125px;
+    margin: 0 auto;
+    top: -9px;
+    left: 37px;
+    font-size: 12px;
+    text-align: center;
+}
+.t-bg{
+    height: 2px;
+    width: 125px;
+    background-position: -916px -860px;
+    margin: 21px auto 0;
+}
+// .extend_div ul{
+// }
+.extend_ul li{
+    width: 175px;
+    height: 182px;
+    padding: 10px 10px 0 10px;
+    position: relative;
+}
+// .extend_div ul li:nth-child(1){
+//     padding-top: 0;
+// }
+.extend_ul img{
+    width: 120px;
+    height: 120px;
+    text-align: center;
+}
+.extend_div ul li a{
+    display: block;
+    width: 120px;
+    margin: 0 auto;
+}
+.extend_ul li p{
+    width: 100%;
+    height: 34px;
+    font-size: 12px;
+    color: #767676;
+    overflow: hidden;
+    margin-bottom: 6px;
+}
+.extend_ul li p:hover{
+    color: #FF6600;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.extend_div_price{
+    font-size: 12px;
+    color: #FF6600;
+}
+.extend_label_none{
+    display: block;
+    width: 77px;
+    height: 26px;
+    background: #666666;
+    line-height: 26px;
+    text-align: center;
+    font-size: 12px;
+    color: #ffffff;
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+    right: 5px;
+    display: none;
+}
+.extend_label_none input{
+    margin-right: 5px;
+}
+.layui-carousel>[carousel-item]>*{
+    background: #ffffff !important;
+}
+.layui-carousel-arrow{
+    bottom: 6px !important;
+    background: #ffffff !important;
+    color: #DCDCDD !important;
+}
+.layui-carousel-ind li.layui-this{
+    background: #666666 !important;
+}
+.layui-carousel-ind ul{
+    padding: 5px;
+    background: #ffffff !important;
+}
+.layui-carousel-ind li{
+    background: #ffffff !important;
+    width: 8px !important;
+    height: 8px !important;
+    border: 1px solid #666666 !important;
+    margin: 0 1px !important;
+}
+/*商品详细内容*/
+.merchandise{
+    width: 100%;
+    height: 1900px;
+    display: flex;
+    margin-top: 20px;
+}
+.merchandise-left{
+    width: 190px;
+    height: 100%;
+    margin-right: 10px;
+}
+.merchandise-text{
+    width: 988px;
+    height: 100%;
+    border: 1px solid #EEEEEE;
+}
+.merchandise-left-text{
+    position: relative;
+    border: 1px solid #FF6600;
+    font-size: 12px;
+
+}
+.merchandise-left-text h3{
+    position: relative;
+    font-weight: 600;
+    color: #FF6600;
+    width: 80px;
+    height: 22px;
+    margin: 0 auto;
+    font-size: 14px;
+    text-align: center;
+    line-height: 22px;
+    background: #ffffff;
+    padding: 18px 8px 0;
+    padding-left: 18px;
+}
+.bg{
+    position: absolute;
+    top: 28px;
+    left: 15px;
+    width: 158px;
+    height: 1px;
+    background: #ffdc8f;
+    font-size: 0;
+}
+.zi{
+    display: inline-block;
+    width: 14px;
+    height: 17px;
+    background-position: -1042px -436px;
+    position: absolute;
+    margin-left: -18px;
+    margin-top: 2px;
+}
+.merchandise-left-text2{
+    margin: 10px 15px;
+}
+.merchandise-left-text2 dl{
+    display: flex;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+.merchandise-left-text2 dl dt{
+    margin-right: 5px;
+    color: #666666;
+}
+.merchandise-left-text2 dl dd{
+    color: #222;
+}
+.merchandise-left-text2-hover1:hover{
+    text-decoration: underline;
+}
+.merchandise-left-text2-hover2:hover{
+    color: #FF6600;
+    text-decoration: underline;
+}
+.merchandise-left-text2-border{
+    border-bottom: 1px solid #EEEEEE;
+}
+.store{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.store a{
+    display: inline-block;
+    width: 167px;
+    height: 28px;
+    border: 1px solid #FF6600;
+    color: #FF6600;
+    text-align: center;
+    line-height: 28px;
+}
+.merchandise-lef-com{
+    width: 100%;
+    height: 1020px;
+    border: 1px solid #EEEEEE;
+    margin-top: 10px;
+}
+.extend_ul_html li a{
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    margin-bottom: 5px;
+}
+.extend_ul_p{
+    font-size: 14px;
+    color: #666666;
+    height: 34px;
+    line-height: 34px;
+    padding-left: 10px;
+    border-bottom: 1px solid #EEEEEE;
+}
+/*商品详情及评价开始*/
+.merchandise-text_title{
+    height: 47px;
+    width: 100%;
+    background: #F7F7F7;
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+}
+.merchandise-text_title_ul{
+    display: flex;
+}
+.merchandise-text_title_ul li{
+    height: 47px;
+    font-size: 14px;
+    padding: 0 25px;
+    line-height: 47px;
+    color: #222222;
+    // border-top: 2px solid #EEEEEE;
+}
+.merchandise-text_title_ul li:hover{
+    color: #FF6600;
+    cursor: pointer;
+}
+.merchandise_text_li_hover{
+    color: #FF6600 !important;
+    background: #ffffff;
+    border-top: 2px solid #FF6600 !important;
+}
+.merchandise_text_li_hover0{
+    border-left: 1px solid #EEEEEE;
+}
+.merchandise-text_title_span span{
+    display: inline-block;
+    height: 47px;
+    padding: 0 25px;
+    line-height: 47px;
+}
+.merchandise-text_title_sao{
+    color: #222222;
+    font-size: 12px;
+    position: relative;
+}
+.merchandise-text_title_sao i{
+    font-size: 12px;
+    margin: 0 1px;
+}
+.icon-qr-code{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-position: -658px -411px;
+    margin: 0 2px;
+    position: relative;
+    top: 2px;
+}
+.merchandise-text_title_sao_none{
+    position: absolute;
+    border: 1px solid #EEEEEE;
+    padding: 5px;
+    border-top: 0;
+    height: 0;
+    display: none;
+    left: 0;
+}
+.layui-rotate1{
+    display: none;
+}
+.merchandise_comm{
+    position: relative;
+    background: #FF6600;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 0 10px !important;
+    cursor: pointer;
+}
+.merchandise_comm_none{
+    // display: block;
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    padding:15px 10px;
+    border: 1px solid #DDDDDD;
+    box-shadow: 1px 1px 1px #DDDDDD;
+    z-index: 33;
+    background: #ffffff;
+    width: 300px;
+    display: none;
+    height: 0;
+}
+.merchandise_comm_none_flex{
+    display: flex;
+}
+.merchandise_comm_none img{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+.merchandise_comm_p{
+    display: inline-block;
+    width: 150px;
+    height: 58px;
+    overflow: hidden;
+    word-break: break-all;
+    line-height: 1.7;
+    color: #666666;
+}
+.merchandise_comm_p_money{
+    line-height: 1;
+    color: #F10000;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.merchandise-text-hover{
+    width: 100%;
+    height: 100%;
+    // background: #222;
+    margin-top: 3px;
+}
+.merchandise-text-hover-none{
+    width: 856px;
+    height: 132px;
+    border:  1px solid #DDDDDD;
+    margin: 20px 0 0 65px;
+} 
+.merchandise-hover-none-title{
+    width: 856px;
+    height: 31px;
+    background: #F0F0F0;
+    line-height: 31px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    border-bottom: 1px solid #DDDDDD;
+}
+.merchandise-hover-none-title span{
+    margin: 0 5px;
+}
+.merchandise-hover-none-title span:nth-child(1){
+    font-weight: 600;
+    color: #666666;
+}
+.merchandise-hover-none-title span:nth-child(2){
+    color: #2272C8;
+}
+.merchandise-hover-none-title span:nth-child(2):hover{
+    color: #FF6600;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.merchandise-hover-none-text ul {
+    padding: 20px 0 30px 70px;
+}
+.merchandise-hover-none-text ul li{
+    float: left;
+    width: 354px;
+    height: 20px;
+    font-size: 12px;
+    color: #666666;
 }
